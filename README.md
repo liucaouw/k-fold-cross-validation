@@ -36,4 +36,4 @@ $$\mathbf{\widetilde{w}} -y_{p}$$
 
 
 
-$$\widetilde{f}_{p}^{T}$$
+$$\widetilde{f}_{p}^{T}\mathbf{\widetilde{w}} -y_{p}$$
