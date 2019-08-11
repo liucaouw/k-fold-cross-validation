@@ -28,4 +28,6 @@ x_{p} & x_{p}^{2} &...  & x_{p}^{D}
 $$\underset{b,\mathbf{w}}{minimize} \sum_{p=1}^{P}\left ( b+\mathbf{f_{p}^{T}}\mathbf{w} -y_{p}\right )^{2}$$  
 Using the compact notation $\mathbf{\widetilde{w}}=\begin{bmatrix}
 b\\ \mathbf{w} 
-\end{bmatrix}$
+\end{bmatrix}^{T}$ and $\widetilde{\mathbf{f_{p}}}=\begin{bmatrix}
+1 & \mathbf{f_{p}}
+\end{bmatrix}^{T}$ for each p we may rewrite the cost as $ g(\widetilde{\mathbf{w}})=\sum_{p=1}^{P}(\mathbf{\widetilde{f}_{p}^{T}}\mathbf{\widetilde{w}} -y_{p})^{2}$. and checking the first order condition then gives the linear system of equations $$
