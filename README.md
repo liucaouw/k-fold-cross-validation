@@ -30,10 +30,4 @@ Using the compact notation $\mathbf{\widetilde{w}}=\begin{bmatrix}
 b\\ \mathbf{w} 
 \end{bmatrix}^{T}$ and $\widetilde{\mathbf{f_{p}}}=\begin{bmatrix}
 1 & \mathbf{f_{p}}
-\end{bmatrix}^{T}$ for each p we may rewrite the cost as $ g\left ( \widetilde{\mathbf{w}} \right ) $. and checking the first order condition then gives the linear system of equations $$ =\sum_{p=1}^{P}$$
-
-$$\mathbf{\widetilde{w}} -y_{p}$$
-
-
-
-$$\widetilde{f_{p}^{T}} \mathbf{\widetilde{w}} -y_{p}$$
+\end{bmatrix}^{T}$ for each p we may rewrite the cost as $ g\left ( \widetilde{\mathbf{w}} \right ) $. and checking the first order condition then gives the linear system of equations $$ =\sum_{p=1}^{P}\left ( \widetilde{f_{p}^{T}} \mathbf{\widetilde{w}} -y_{p} \right )$$
